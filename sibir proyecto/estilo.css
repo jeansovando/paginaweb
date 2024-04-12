@@ -1,0 +1,52 @@
+body{
+	padding: 0;
+	marguin: 0;
+	height: 100vh;
+	justify-self: center;
+	align-items: center;
+	background-color: #E4514C;
+}
+.section{
+	margin:0;
+	padding:0;
+	height:100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.slider{
+	widht: 800px;
+	height: 500px;
+	border-radius:10px;
+	overflow: hidden;
+}
+.slide{
+	width: 500%;
+	Height:500px;
+	display: flex;
+}
+.slide input{
+	display: none;
+}
+.st{
+	widht: 20%;
+	transition: 2s;
+}
+.st img{
+	width: 800px;
+	height:500px;
+}
+.nav-m{
+	position:absolute;
+	widht:800px;
+	margin-top:-40;
+	display: flex;
+	justify-self: center{
+}
+.m-btn{
+	border:2px sold #E4514C;
+	padding:5px;
+	border-radius:10px;
+	cursor:pointer;
+	transition:1s;
+}
